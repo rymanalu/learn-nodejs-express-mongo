@@ -1,0 +1,14 @@
+{
+  "name": "@rymanalu/books",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node public/index.js"
+  },
+  "author": "Roni Yusuf Manalu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.8"
+  }
+}

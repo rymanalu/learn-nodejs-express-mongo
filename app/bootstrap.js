@@ -9,8 +9,8 @@ mongoose.connect(
   databaseConfig.connection, {config: databaseConfig.config}
 );
 
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(routes);
-//app.use(bodyParser.urlencoded({extended: false}));
 
 module.exports = app;
